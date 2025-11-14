@@ -424,12 +424,11 @@ MAIN-CONTROL (0000)
 
 ### Compile
 ```bash
-cobc -x -free orbital-mechanics.cob -o orbital-mechanics
+cobc -x orbital-mechanics.cob -o orbital-mechanics
 ```
 
 Flags:
 - `-x`: Create executable
-- `-free`: Free-format COBOL (columns not fixed)
 
 ### Run
 ```bash
@@ -513,13 +512,7 @@ The program simulates a **LEO to GEO transfer mission with extended orbit propag
 
 This code is provided for educational purposes to demonstrate both orbital mechanics principles and COBOL programming capabilities. All rights reserved by moshix
 
-## To run
 
-Either upload to your mainframe, and copmile and go. Or install the gnucobol compiler and compile with  
-```
-cobcc orbital-mechanics.cob
-
-```
   
 Moshix   
 November 2025
