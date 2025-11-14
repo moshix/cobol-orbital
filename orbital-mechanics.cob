@@ -5,13 +5,13 @@
       *****************************************************************
       * COPYRIGHT 2025 BY MOSHIX. ALL RIGHTS RESERVED.                *
       *****************************************************************
-      * ORBITAL MECHANICS COMPUTATION SYSTEM                          *
+      * ORBITAL MECHANICS COMPUTAION SYSTEM                           *
       * PERFORMS COMPLEX ORBITAL CALCULATIONS INCLUDING:              *
       * - KEPLERIAN ORBITAL ELEMENTS                                  *
-      * - ORBITAL VELOCITY AND ENERGY CALCULATIONS                    *
+      * - ORBITAL VELOCITY AND ENERGY CACLULATIONS                    *
       * - KEPLER'S EQUATION SOLVER (ITERATIVE)                        *
       * - POSITION AND VELOCITY VECTORS IN ORBITAL PLANE              *
-      * - HOHMANN TRANSFER ORBIT CALCULATIONS                         *
+      * - HOHMAN TRANSFER ORBIT CALCULATIONS                          *
       * - MULTI-BODY PERTURBATION ANALYSIS                            *
       * - LONG-DURATION ORBITAL PROPAGATION                           *
       *****************************************************************
@@ -35,7 +35,7 @@
        
        WORKING-STORAGE SECTION.
       *****************************************************************
-      * MATHEMATICAL CONSTANTS                                        *
+      * SOME CONSTANTS BECAUSE WE NEDD THEM                           *
       *****************************************************************
        01  MATHEMATICAL-CONSTANTS.
            05  WS-PI                   PIC 9(1)V9(15) VALUE 
@@ -107,7 +107,7 @@
            05  WS-VELOCITY-MAGNITUDE   PIC 9(5)V9(10).
        
       *****************************************************************
-      * HOHMANN TRANSFER ORBIT PARAMETERS                             *
+      * HOHMANN TRANFSER ORBIT PARAMETERS                             *
       *****************************************************************
        01  TRANSFER-ORBIT-PARAMETERS.
            05  WS-INITIAL-ORBIT-R      PIC 9(8)V9(6).
