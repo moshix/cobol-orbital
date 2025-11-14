@@ -1,0 +1,29 @@
+                                             ORBITAL MECHANICS COMPUTATION REPORT
+
+PAGE:         1
+     ================================================================================
+
+     KEPLERIAN ORBITAL ELEMENTS
+
+          SEMI-MAJOR AXIS                          =               6,778.137000      KM
+          ECCENTRICITY                             =               0.00150000000
+          INCLINATION                              =              28.50000000000     DEGREES
+          RAAN                                     =               0.00084143016     DEGREES
+          ARGUMENT OF PERIAPSIS                    =             110.01936540000     DEGREES
+
+     DERIVED ORBITAL PARAMETERS
+
+          ORBITAL PERIOD                           =               5,553.624271      SECONDS
+          PERIAPSIS RADIUS                         =               6,767.969794      KM
+          APOAPSIS RADIUS                          =               6,788.304205      KM
+          PERIAPSIS VELOCITY                       =               7.68006965330     KM/S
+          APOAPSIS VELOCITY                        =               7.65706395290     KM/S
+
+     HOHMANN TRANSFER ORBIT ANALYSIS
+
+          DELTA-V BURN 1                           =               0.00000000000     KM/S
+          DELTA-V BURN 2                           =               0.00000000000     KM/S
+          TOTAL DELTA-V                            =               0.00000000000     KM/S
+          TRANSFER TIME                            =              19,048.562509      SECONDS
+
+     ================================================================================
